@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83077b5bb98b4daa9b2e50f35f47aefa, type: 3}
+  m_Name: BulletData_L4_S2_T360
+  m_EditorClassIdentifier: 
+  InitialSpeed: 6
+  MaxSpeed: 10
+  MaxDistance: 50
+  Damage: 20
+  Bounce: 0
+  BounceLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  TagOwner: 1
+  TargetUnit: 0
+  Capacity: 25
+  Delay: 2
+  ReloadTime: 5
+  AcceleartionPerSec: 1
+  BulletNum: {fileID: 11400000, guid: edca5539f0c77d34980715963f32178e, type: 2}
+  CanReactToBullet: 1
+  UseAcceleration: 0
+  LimitMaxSpeed: 0
+  UpdateFrequency: 0.1
+  ObjectPool: {fileID: 3901054672233340394, guid: 0766d48372b61334d976aedf9e7cd677, type: 3}

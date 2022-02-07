@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5090667848279531021
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5090667848279531018}
+  - component: {fileID: 5090667848279531019}
+  - component: {fileID: 5090667848279531016}
+  m_Layer: 7
+  m_Name: PlayerManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5090667848279531018
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5090667848279531021}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5090667848279531019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5090667848279531021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb8791bc7f79f174987fb6d04e5602e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerPrefab: {fileID: 3968654194582086124, guid: b99fb22c7938d5148baa67919d4ca1a4, type: 3}
+  _spawnPointPos: {x: 0, y: 0, z: 0}
+  _bulletDatas: []
+  _tankSpawner: {fileID: 5090667848279531016}
+  _player: {fileID: 0}
+  _playerLife: {fileID: 0}
+  _playerHealth: {fileID: 0}
+  _canPlayerSpawn: {fileID: 11400000, guid: 2fd8b32771a252f42b1c246c7e577ef0, type: 2}
+  _disablePlayerControl: {fileID: 11400000, guid: e15bb90c85ac92d4091b933dd53d0c68, type: 2}
+  _canPlayerShoot: {fileID: 11400000, guid: e729b69b17ee1ef48b96c5877a085d2a, type: 2}
+  _isButtonBeingDrag: {fileID: 11400000, guid: 08c3220d8d368ec489a06b06a7e9608d, type: 2}
+  _isIntialized: 0
+  isGameOverTrigger: 0
+  _AutoManualTrigger: {fileID: 0}
+  GameOverEvent: {fileID: 11400000, guid: 1aa7e3f6f31b17b4d84f79114017de07, type: 2}
+  OnPlayerActivated:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &5090667848279531016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5090667848279531021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa80f4b27db18114380cc93a25333dc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _unitStatus: {fileID: 0}

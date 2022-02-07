@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8143554727680815210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6756592529646222081}
+  - component: {fileID: 8741173403848949958}
+  m_Layer: 0
+  m_Name: Pool_Attachment_Army_Bullet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6756592529646222081
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8143554727680815210}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8741173403848949958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8143554727680815210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52cbaec163e4cefbafa38b991e4dfae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 01010e0000005f006f0062006a0065006300740050006f006f006c0047004f0073002f00000000015c000000530079007300740065006d002e0043006f006c006c0065006300740069006f006e0073002e00470065006e0065007200690063002e0051007500650075006500600031005b005b0055006e0069007400790045006e00670069006e0065002e00470061006d0065004f0062006a006500630074002c00200055006e0069007400790045006e00670069006e0065002e0043006f00720065004d006f00640075006c0065005d005d002c002000530079007300740065006d00000000000600000000000000000705
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  _objectToPoolGO: {fileID: 8787092232612660201, guid: a9ffce25df591a9449ec9d66db811bf3, type: 3}
+  _poolSize: 200
+  _spawnedObjectsParent: {fileID: 0}
+  _alwaysDestroy: 0
